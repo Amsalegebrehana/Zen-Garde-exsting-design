@@ -1,0 +1,29 @@
+body {
+    background-color: #ddece4;
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+}
+.page-wrapper{
+    margin: 5% 5% 2% 5%;
+    background-color: skyblue;
+    padding: 4% 5% 2% 4%;
+    
+}
+header h1{
+    padding: 2%;
+    background-color: rgb(226, 70, 70);
+    color: white;
+    width: 250px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+header h2{
+    margin-top: 1%;
+    color: #fff;
+    font-size: 6.5em;
+    letter-spacing: 1px;
+    font-size: 100px;
+    line-height: 140px;
+    font-weight: 900;
+    padding-right: 35%;
+}
