@@ -10,3 +10,25 @@ a{
 a:hover{
     border-bottom: 1px solid rgb(226, 70, 70);
 }
+
+.summary p:first-child{
+    border-bottom: 1px red solid;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 550px){ 
+    body {
+        font-size: 97%;
+    }
+    .page-wrapper{
+        margin: 5% 5% 2% 2%;
+        background-color: skyblue;
+        padding: 4% 5% 1% 1%;
+        
+    }
+    header h2{
+        margin-top: 1%;
+        color: #fff;
+        font-size: 3.3em;
+        font-weight: 900;
+        
+    }
