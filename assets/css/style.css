@@ -53,3 +53,78 @@ a:hover{
         
         padding: 3% 5% 5% 30%;
     }
+    section  h3{
+        font-size: 1.7em;
+        font-weight: 100;
+        letter-spacing: -0.8px;
+        line-height: 2em;
+        color: rgb(70, 69, 69);
+        padding: 0.35em 0 0 0;
+    }
+    .participation h3{
+        font-size: 2em;
+        font-weight: 100;
+        letter-spacing: -0.8px;
+        
+        color: #fff;
+        padding: 0.5em 0 0 0;
+    }
+    .main .explanation h3{
+    
+    
+        font-size: 1.50em;
+        font-weight: 200;
+        letter-spacing: 1px;
+        line-height: 1em;
+        padding: 10% 4% 1% 0;
+    }
+    .main .participation{
+        font-size: 1.10em;
+        width: 95%;
+        margin-right: -11%;
+        background: rgba(234,46,73,0.9);
+        color: #fff;
+        padding:3% 7% 7% 7%;
+    }
+    .main .benefits{
+    
+        margin-top: 15%;
+        width: 95%;
+        font-size: 1.07em;
+        padding: 5% 5% 10% 5%;
+        background-color: rgba(255,255,255,0.9);
+    }
+    .benefits h3{
+        font-size: 1.7em;
+        font-weight: 100;
+        
+        color: rgb(70, 69, 69);
+        padding: 0.15em 0 0 0;
+    }
+    .main .requirements{
+    
+        width: 95%;
+        font-size: 1.07em;
+        padding: 5% 5% 10% 5%;
+        background-color: rgba(255,255,255,0.9);
+        
+    }
+    .main .explanation{
+   
+        color:#fff ;
+        font-size: 1.10em;
+        width: 90%;
+    }
+    aside .wrapper{
+        margin: 9% -5px 0 -5px;
+        
+        font-size: 1.0em;
+        line-height: 1.6em;
+        top: 2.5%;
+        width: 100%;
+        background: rgba(246,247,146,0.9);
+        padding: 4% ;
+        
+    }
+
+}
