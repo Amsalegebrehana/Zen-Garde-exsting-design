@@ -162,3 +162,54 @@ section .preamble p{
     color: rgb(70, 69, 69);
     padding: 0.15em 0em 0 0;
 }
+.requirements a{
+    color: rgb(70, 69, 69);
+}
+.requirements p:last-child{
+    border-top: 1px red solid;
+    padding-top: 10px;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+.design-name{
+    color: black !important;
+}
+footer{
+    background: rgba(246,247,146,0.9);
+    clear: both;
+    color: #fff;
+    padding: 1em 5%;
+    width: 50%;
+}
+@media screen and (min-width: 550px){ 
+    .page-wrapper{
+        margin: 5% 5% 2% 5%;
+        background-color: skyblue;
+        padding: 4% 5% 2% 4%;
+        
+    }
+    section .preamble{
+        font-size: 1.2em;
+        background-color: rgba(255,255,255,0.9);
+        color: rgb(53, 52, 52);
+        margin-top: 10%;
+        margin-left: -30%;
+        margin-right: 35%;
+        padding: 3% 5% 5% 30%;
+    }
+    section  h3{
+        font-size: 2em;
+        font-weight: 200;
+        letter-spacing: -0.8px;
+        line-height: 2em;
+        color: rgb(70, 69, 69);
+        padding: 0.5em 0 0.02em 0;
+    }
+    .select{
+        font-size: 1.8em;
+        font-weight: 100;
+        
+        color: rgb(70, 69, 69);
+        
+    }
