@@ -128,3 +128,37 @@ a:hover{
     }
 
 }
+header h1{
+    padding: 2%;
+    background-color: rgb(226, 70, 70);
+    color: white;
+    width: 250px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+
+
+section .preamble p{
+    font-size: 1em;
+    font-weight: 400;
+    color: rgb(39, 38, 38);
+}
+.main{
+    padding: 6%;
+
+}
+.participation a{
+    color: #fff;
+}
+
+
+.requirements h3{
+    font-size: 1.7em;
+    font-weight: 100;
+    letter-spacing: -0.8px;
+    line-height: 2em;
+    color: rgb(70, 69, 69);
+    padding: 0.15em 0em 0 0;
+}
