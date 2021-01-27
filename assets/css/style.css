@@ -15,6 +15,10 @@ a:hover{
     border-bottom: 1px red solid;
     padding-bottom: 10px;
 }
+.summary a{
+    color: #fff;
+    
+}
 @media screen and (max-width: 550px){ 
     body {
         font-size: 97%;
@@ -39,10 +43,7 @@ a:hover{
        
         
     }
-    .summary a{
-        color: #fff;
-        
-    }
+    
     footer a{
         color: rgb(70, 69, 69);
     }
@@ -182,6 +183,11 @@ footer{
     padding: 1em 5%;
     width: 50%;
 }
+footer a{
+    font-size: 1.2em;
+    color: rgb(70, 69, 69);
+    font-weight: 400;
+}
 @media screen and (min-width: 550px){ 
     .page-wrapper{
         margin: 5% 5% 2% 5%;
@@ -213,3 +219,142 @@ footer{
         color: rgb(70, 69, 69);
         
     }
+    .main .explanation{
+        font-size: 1.2em;
+        color:#fff ;
+        float: left;
+        width: 40%;
+    }
+    .main .explanation h3{
+        
+        font-size: 1.80em;
+        font-weight: 200;
+        letter-spacing: 1px;
+        line-height: 1em;
+        padding: 10% 4% 1% 0;
+    }
+    .summary {
+        font-size: 1.15em;
+        color: #fff;
+        text-transform:uppercase;
+        font-size: 1em;
+        margin-right: 30%;
+        
+    }  
+    header h2{
+        margin-top: 1%;
+        color: #fff;
+        font-size: 6em;
+        letter-spacing: 1px;
+        font-size: 100px;
+        line-height: 140px;
+        font-weight: 900;
+        padding-right: 35%;
+    }
+    .extra1 {
+        background: rgba(51,55,69,0.9);
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        top: 0;
+        width: 30%;
+        
+        z-index: 0; 
+    }
+    aside .wrapper{
+        font-size: 1.25em;
+        position: absolute;
+        margin-top: 9%;
+        margin-right: 5.5%;
+        right: 0;
+        top: 2.5%;
+        width: 22%;
+        background: rgba(246,247,146,0.9);
+        padding: 3%;
+        z-index: 1;
+    }
+    .main .benefits{
+        font-size: 1.2em;
+        margin-left: -7%;
+        margin-top: 15%;
+        width: 25%;
+        position: relative;
+        float: left;
+        padding: 5% 5% 7% 5%;
+        background-color: rgba(255,255,255,0.9);
+    }
+    .benefits h3{
+        font-size: 2em;
+        font-weight: 200;
+        letter-spacing: -0.8px;
+        line-height: 2em;
+        color: rgb(70, 69, 69);
+        padding: 0.15em 0em 0.02em 0;
+    }
+    .main .requirements{
+        font-size: 1.2em;
+        position: relative;
+        margin-right: -10%;
+        padding-right: -2%;
+        float: left;
+        width: 70%;
+        background: rgba(255,255,255,0.9);
+        padding: 5%;
+        z-index: 1;
+    }
+    .main .participation{
+        font-size: 1.2em;
+        position: relative;
+        float: left;
+        width: 48%;
+        margin-left: 6%;
+        margin-right: -11%;
+        background: rgba(234,46,73,0.9);
+        color: #fff;
+        padding:3% 7% 7% 7%;
+        z-index: 1;
+    }
+    .participation h3{
+        font-size: 2em;
+        font-weight: 100;
+        letter-spacing: -0.8px;
+        
+        color: #fff;
+        padding: 0.5em 0 0 0;
+    }
+}
+aside{
+    display: block;
+}
+.wrapper .design-selection{
+    color: rgb(19, 19, 19);
+}
+aside h3{
+    color: rgb(71, 71, 71);
+    font-weight: 300;
+    font-size: 25px;
+}
+aside.sidebar ul {
+    padding: 0.5em 0 2em 0;
+}
+aside nav ul li {
+    color: rgba(27, 27, 27, 0.4);
+    list-style: none;
+    letter-spacing: 1px;
+}
+
+.zen-resources ul li{
+    
+    list-style: none;
+    letter-spacing: 1px;
+}
+.zen-resources a{
+    color: rgba(27, 27, 27, 1);
+}
+.design-archives a{
+    color: rgba(27, 27, 27, 1);
+}
+.designer-name{
+    color: rgba(27, 27, 27, 1);
+
+}
