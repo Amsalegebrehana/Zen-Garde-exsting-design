@@ -20,9 +20,7 @@ a:hover{
     
 }
 @media screen and (max-width: 550px){ 
-    body {
-        font-size: 97%;
-    }
+   
     .page-wrapper{
         margin: 5% 5% 2% 2%;
         background-color: skyblue;
@@ -63,7 +61,7 @@ a:hover{
         padding: 0.35em 0 0 0;
     }
     .participation h3{
-        font-size: 2em;
+        font-size: 1.7em;
         font-weight: 100;
         letter-spacing: -0.8px;
         
@@ -80,7 +78,7 @@ a:hover{
         padding: 10% 4% 1% 0;
     }
     .main .participation{
-        font-size: 1.10em;
+        font-size: 1.0em;
         width: 95%;
         margin-right: -11%;
         background: rgba(234,46,73,0.9);
@@ -91,12 +89,12 @@ a:hover{
     
         margin-top: 15%;
         width: 95%;
-        font-size: 1.07em;
+        font-size: 1.0em;
         padding: 5% 5% 10% 5%;
         background-color: rgba(255,255,255,0.9);
     }
     .benefits h3{
-        font-size: 1.7em;
+        font-size: 1.5em;
         font-weight: 100;
         
         color: rgb(70, 69, 69);
@@ -105,7 +103,7 @@ a:hover{
     .main .requirements{
     
         width: 95%;
-        font-size: 1.07em;
+        font-size: 1.0em;
         padding: 5% 5% 10% 5%;
         background-color: rgba(255,255,255,0.9);
         
@@ -188,6 +186,7 @@ footer a{
     color: rgb(70, 69, 69);
     font-weight: 400;
 }
+
 @media screen and (min-width: 550px){ 
     .page-wrapper{
         margin: 5% 5% 2% 5%;
@@ -234,11 +233,11 @@ footer a{
         padding: 10% 4% 1% 0;
     }
     .summary {
-        font-size: 1.15em;
+        font-size: 1.3em;
         color: #fff;
         text-transform:uppercase;
-        font-size: 1em;
-        margin-right: 30%;
+        
+        margin-right: 35%;
         
     }  
     header h2{
@@ -356,14 +355,4 @@ aside nav ul li {
 }
 .designer-name{
     color: rgba(27, 27, 27, 1);
-
-}
-@media screen{
-    body{
-
-    }
-    .summary{
-
-    }
-    .participation
 }
