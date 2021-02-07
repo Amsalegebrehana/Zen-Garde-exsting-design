@@ -90,7 +90,7 @@ a:hover{
         margin-top: 15%;
         width: 95%;
         font-size: 1.0em;
-        padding: 5% 5% 10% 5%;
+        padding: 2% 2% 10% 5%;
         background-color: rgba(255,255,255,0.9);
     }
     .benefits h3{
@@ -104,7 +104,7 @@ a:hover{
     
         width: 95%;
         font-size: 1.0em;
-        padding: 5% 5% 10% 5%;
+        padding: 2% 2% 10% 5%;
         background-color: rgba(255,255,255,0.9);
         
     }
@@ -179,12 +179,14 @@ footer{
     clear: both;
     color: #fff;
     padding: 1em 5%;
+    margin-left: -7%;
     width: 50%;
 }
 footer a{
     font-size: 1.2em;
-    color: rgb(70, 69, 69);
-    font-weight: 400;
+    color: rgb(53, 52, 52);
+    font-weight: 500;
+    padding: 1%;
 }
 
 @media screen and (min-width: 550px){ 
