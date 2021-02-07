@@ -114,6 +114,7 @@ a:hover{
         font-size: 1.10em;
         width: 90%;
     }
+    
     aside .wrapper{
         margin: 9% -5px 0 -5px;
         
@@ -224,6 +225,7 @@ footer a{
         font-size: 1.2em;
         color:#fff ;
         float: left;
+        
         width: 40%;
     }
     .main .explanation h3{
@@ -330,10 +332,10 @@ aside{
 .wrapper .design-selection{
     color: rgb(19, 19, 19);
 }
-aside h3{
+.wrapper h3{
     color: rgb(71, 71, 71);
-    font-weight: 300;
-    font-size: 25px;
+    font-weight: 100;
+    font-size: 32px;
 }
 aside.sidebar ul {
     padding: 0.5em 0 2em 0;
